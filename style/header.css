@@ -17,6 +17,9 @@
   h1{
     display: none;
   }
+  @media screen {
+    
+  }
   display: flex;
   justify-content: space-around;
 }
