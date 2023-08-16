@@ -8,3 +8,7 @@
 .cabeçalho{
     background-color:var(--branco) ;
 }
+.div-1{
+  display: flex;
+  justify-content: space-around;
+}
