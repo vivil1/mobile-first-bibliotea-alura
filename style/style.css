@@ -3,6 +3,7 @@
 :root{
     --cor-de-fundo:#ebecee;
     --branco:#FFFFFF;
+    --amarelo: #fecd2f;
     --fonte-principal:"poppins"
 }
 body{
@@ -13,6 +14,6 @@ body{
 }
 
 h1{
-    background-color: write;
+    background-color: #FFFFFF;
 }
 
