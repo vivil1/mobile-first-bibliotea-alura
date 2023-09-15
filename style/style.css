@@ -1,11 +1,15 @@
 @import url("../style/header.css ");
 
-:root{
-    --cor-de-fundo:#ebecee;
-    --branco:#FFFFFF;
-    --amarelo: #fecd2f;
-    --fonte-principal:"poppins"
+:root{ 
+    --cor-de-fundo: #ebecee;
+    --font-principal:"Poppins";
+    --amarelo:#FECD2F;
+    --roxo:#733887;
+
+  
 }
+
+
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
