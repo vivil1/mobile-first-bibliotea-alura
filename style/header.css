@@ -1,17 +1,17 @@
 .cabeçalho_menu-hamburguer{
   width: 70px;
   height: 70px;
-  background-image: url(../imagem/Menu.svg.png);
+  background-image: url(../imagens/Menu.svg.png);
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
 }
-.cabeçalho{
-  background-color: var(--branco);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+.cabecalho{
+background-color: var(--branco);
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
 }
 
 .div-1{
@@ -25,22 +25,22 @@ h1{
 .lista-menu {
   display: block;
   position: absolute;
-  top: 100;
+  top: 100%;
 }
 
 .lista-menu-titulo,.lista-menu-item{
   padding: 1em;
   background-color: var(--branco);
 }
+
 .lista-menu-titulo{
   color: var(--amarelo);
   font-weight: 700;
 }
 
-
 .lista-menu-link{
   background: var(--roxo);
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-transform: uppercase;
@@ -52,11 +52,16 @@ h1{
 
 @media screen and (min-width:1024px) {
   h1{
-    display: block;
-    font-size: 30px;
-  }
+  display: block;
+  font-size: 30px;
+}
+}
+
+.lista-menu{
+  display: none;
 }
 
 .div-menu:checked ~.lista-menu{
   display: block;
 }
+
