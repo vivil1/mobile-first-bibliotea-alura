@@ -59,6 +59,6 @@ h1 {
   display: none;
 }
 
-.div-menu:checked~.lista-menu{
+.div-menu:checked ~.lista-menu{
   display: block;
 }
