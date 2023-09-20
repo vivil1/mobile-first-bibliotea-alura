@@ -31,7 +31,6 @@ h1 {
 }
 
 .lista-menu-titulo,.lista-menu-item{
-
   padding: 1em;
   background-color: var(--branco);
 }
@@ -42,9 +41,9 @@ h1 {
 }
 
 .lista-menu-link{
-  background: var(--roxo);
-  background-clip: text;
-  text-transform: uppercase;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip:text ;
 }
 
 @media screen and (min-width:1024px) {
