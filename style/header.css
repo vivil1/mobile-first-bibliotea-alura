@@ -42,5 +42,9 @@ h1{
 }
 
 .div-menu{
-  
+  display: none;
+}
+
+.div-menu:checked ~.lista-menu{
+  display: block;
 }
