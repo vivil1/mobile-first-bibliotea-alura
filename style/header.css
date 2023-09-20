@@ -32,6 +32,11 @@ h1{
   padding: 1em;
   background-color: var(--branco);
 }
+.lista-menu-titulo{
+  color: var(--amarelo);
+  font-weight: 700;
+}
+
 
 .lista-menu-link{
   background: var(--roxo);
@@ -43,6 +48,13 @@ h1{
 
 .div-menu{
   display: none;
+}
+
+@media screen and (min-width:1024px) {
+  h1{
+    display: block;
+    font-size: 30px;
+  }
 }
 
 .div-menu:checked ~.lista-menu{
