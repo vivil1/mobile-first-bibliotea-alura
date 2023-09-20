@@ -1,6 +1,6 @@
-.cabeçalho_menu-hamburguer {
-  width: 24px;
-  height: 24px;
+.cabeçalho_menu-hamburguer{
+  width: 70px;
+  height: 70px;
   background-image: url(../imagem/Menu.svg.png);
   display: inline-block;
   background-repeat: no-repeat;
